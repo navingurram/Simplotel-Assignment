@@ -1,67 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/ae73087723.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="web.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ae73087723.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="web.css" />
     <title>Responsive Navbar</title>
-</head>
-<body>
-    <nav class="navbar">
-    <input type="checkbox" id="check"/>
-    <label for="check" class="checkbtn">
-        <img src="menu-bar.png" style="width: 30px;"/>
-    </label>
-    <ul class="ulist">
-        <li class="liststyle s1"><a class="anch" href="#">Home</a></li>
-        <li class="liststyle"><a class="anch" href="#">Food</a></li>
-        <li class="liststyle"><a class="anch" href="#">Restaurent</a></li>
-        <li class="liststyle"><a class="anch" href="#">Testimonials</a></li>
-        <li class="liststyle"><a class="anch" href="#">Contact Us</a></li>
-        <li class="liststyle"><a class="anch" href="#">About</a></li>
-    </ul>
-</nav>
-<div class="grid-container">
-    <div class="grid-item img1" style="border: none;">
-        <div class="head">
-        <h1 class="heading1">LOREM IPSUM</h1>
-        <p class="para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus <br/>
-            id est vitae dolor rhoncus tristique. Maecenas metus quam,<br/>
-            rhoncus euismod lorem in, sollicitudin viverra eros. Donec<br/>
-            dictum luctus quam ut tristique. Curabitur nec faucibus purus.<br/>
-            Quisque congue sem nec justo mollis, in tincidunt erat pretium.<br/>
-            Sed pulvinar, massa ac porta viverra.</p>
-            <div style="padding-bottom: 170px;">
-            <button class="button">Click Me</button>
-        </div>
+  </head>
+  <body>
+    <header class="header">
+      <input type="checkbox" id="check" />
+      <label for="check" style="display: flex; align-items: center">
+        <img src="./menu-bar.png" class="icons" id="menu-icon" />
+      </label>
+      <nav class="navbar">
+        <a href="">Home</a>
+        <a href="">Order</a>
+        <a href="">Food</a>
+        <a href="">Restaurent</a>
+        <a href="">Testimonials</a>
+        <a href="">Contact Us</a>
+      </nav>
+    </header>
+    <div class="container2">
+      <div class="grid-container">
+          <div class="head">
+            <h1 class="heading1">LOREM IPSUM</h1>
+            <p class="para1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              <br />
+              id est vitae dolor rhoncus tristique. Maecenas metus quam,<br />
+              rhoncus euismod lorem in, sollicitudin viverra eros. Donec<br />
+              dictum luctus quam ut tristique. Curabitur nec faucibus purus.<br />
+              Quisque congue sem nec justo mollis, in tincidunt erat pretium.<br />
+              Sed pulvinar, massa ac porta viverra.
+            </p>
+            <div style="padding-bottom: 170px">
+              <button class="button">Click Me</button>
+            </div>
+          </div>
+          <div
+            class="grid-item"
+            style="border: none; display: flex; justify-content: end"
+          >
+            <img src="pexels-robin-stickel-70497.jpg" class="image1" />
+          </div>
+      </div>
     </div>
-    </div>
-    <div class="grid-item" style="border: none; display: flex; justify-content: end;">
-        <img src="pexels-robin-stickel-70497.jpg" class="image1"/>
-    </div>
-</div>
-</div>
-<div class="container2">
-    <div class="grid-container2 head">
-        <div class="grid-item " style="border: none;">
-            <img src="pexels-rachel-claire-6752433.jpg" class="image2"/>
-            <img src="pexels-eva-bronzini-6141651.jpg" class="image2"/>
+    <div class="Secondcontainer">
+      <div class="grid-container2 head">
+        <div class="grid-item" style="border: none">
+          <img src="pexels-rachel-claire-6752433.jpg" class="image2" />
+          <img src="pexels-eva-bronzini-6141651.jpg" class="image2" />
         </div>
-        <div class="grid-item images1" style="border: none;">
-            <img src="pexels-mister-mister-3434523.jpg" class="image3"/>
+        <div class="grid-item images1" style="border: none">
+          <img src="pexels-mister-mister-3434523.jpg" class="image3" />
         </div>
-        <div class="grid-item" style="border: none;">
-            <div class="box">
-            <p style="font-size: 15px;">LOREM IPSUM</p>
-            <h1 style="font-size: 40px;">LOTRTEM IPSUM <br/>
-            SET ADEMIR</h1>
+        <div class="grid-item" style="border: none">
+          <div class="box">
+            <p style="font-size: 15px">LOREM IPSUM</p>
+            <h1 style="font-size: 40px; margin-top: 30px;">
+              LOTRTEM IPSUM <br />
+              SET ADEMIR
+            </h1>
             <div>
-            <p style="font-size: 20px; margin-bottom: 5px;"> Click <img src="icons8-arrow-30.png" style="width: 20px; margin-top: 20px;"/></p>
+              <p style="font-size: 20px; margin-bottom: 5px; ">
+                Click
+                <img
+                  src="icons8-arrow-30.png"
+                  style="width: 20px; margin-top: 20px"
+                />
+              </p>
+            </div>
+          </div>
         </div>
-        </div>
-        </div>
+      </div>
     </div>
-</div>
-</body>
+  </body>
 </html>
